@@ -1116,13 +1116,17 @@ img {
   .header,
   .main,
   .footer__container {
-    padding: 0;
+    padding: 0px;
+  }
+  .nav {
+    max-width: none;
+    padding: 20px;
   }
   .home_blob {
     width: 320px;
   }
   .home__social {
-    transform: translateX((-6rem));
+    transform: translateX(-6rem);
   }
   .services__container {
     grid-template-columns: repeat(3, 238px);
@@ -1145,7 +1149,7 @@ img {
   .contact__form {
     width: 460px;
   }
-  .contact__input {
+  .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
 }
